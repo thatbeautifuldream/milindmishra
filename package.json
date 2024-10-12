@@ -4,9 +4,12 @@
   "description": "A personal card for Milind Mishra (@thatbeautifuldream)",
   "main": "/bin/card.js",
   "bin": {
-    "milindmishra": "./bin/card.js"
+    "milindmishra": "bin/card.js"
   },
-  "repository": "https://github.com/thatbeautifuldream/card",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatbeautifuldream/card.git"
+  },
   "homepage": "https://milindmishra.com",
   "scripts": {
     "prepublish": "npm run build",
