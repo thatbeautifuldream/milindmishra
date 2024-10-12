@@ -1,0 +1,36 @@
+{
+  "name": "milindmishra",
+  "version": "1.0.0",
+  "description": "A personal card for Milind Mishra (@thatbeautifuldream)",
+  "main": "/bin/card.js",
+  "bin": {
+    "milindmishra": "./bin/card.js"
+  },
+  "repository": "https://github.com/thatbeautifuldream/card",
+  "homepage": "https://milindmishra.com",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard"
+  },
+  "keywords": [
+    "npm",
+    "npm milindmishra",
+    "npx",
+    "npx milindmishra"
+  ],
+  "author": "Milind Mishra <contact@milindmishra.com> (http://milindmishra.com)",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.2",
+    "standard": "^12.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/thatbeautifuldream/milindmishra/issues"
+  }
+}

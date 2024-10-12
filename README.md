@@ -1,0 +1,7 @@
+# Usage
+
+## npm
+
+```
+npx milindmishra
+```
